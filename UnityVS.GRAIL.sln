@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.GRAIL.CSharp", "UnityVS.GRAIL.CSharp.csproj", "{34DC6E7F-DD6D-B3D4-F6A3-E74284C4EAAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.GRAIL.CSharp.Editor", "UnityVS.GRAIL.CSharp.Editor.csproj", "{FDCD4B70-1483-6ACE-1622-3BF8109D08D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34DC6E7F-DD6D-B3D4-F6A3-E74284C4EAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DC6E7F-DD6D-B3D4-F6A3-E74284C4EAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DC6E7F-DD6D-B3D4-F6A3-E74284C4EAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DC6E7F-DD6D-B3D4-F6A3-E74284C4EAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCD4B70-1483-6ACE-1622-3BF8109D08D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCD4B70-1483-6ACE-1622-3BF8109D08D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCD4B70-1483-6ACE-1622-3BF8109D08D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCD4B70-1483-6ACE-1622-3BF8109D08D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

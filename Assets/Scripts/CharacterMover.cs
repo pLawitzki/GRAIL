@@ -73,8 +73,7 @@ public class CharacterMover : MonoBehaviour {
             }
         }
 
-        float run = Input.GetAxis("Horizontal");
-        run = (run < 0f) ? 0f : run;
+        float run = Right;
 
         if (groundNormal.y <= 0.8f)
         {
@@ -97,11 +96,28 @@ public class CharacterMover : MonoBehaviour {
         UpdateRunAnimation();
         UpdateMidAirAnimation();
 
-        previousHAxis = Input.GetAxis("Horizontal");
+        previousHAxis = Right;
         previousJumpVelocity = jumpVelocity;
 
         StepAudio();
 	}
+
+    float Right {
+        get
+        {
+            float right = Input.GetAxis("Horizontal");
+            if (right <= 0f)
+            {
+                right = Input.GetMouseButton(0) ? 1f : 0f;
+            }
+            if (right <= 0f)
+            {
+                right = (float)Input.touchCount;
+            }
+            right = (right < 0f) ? 0f : right;
+            return right;
+        }
+    }
 
     void OnControllerColliderHit(ControllerColliderHit hit)
     {
@@ -131,12 +147,12 @@ public class CharacterMover : MonoBehaviour {
     {
         if (attacking) return;
 
-        if (previousHAxis > 0f && Input.GetAxis("Horizontal") > 0f)
+        if (previousHAxis > 0f && Right > 0f)
             return; // input has not changed
 
         if (jumpVelocity == 0f)
         {
-            if (Input.GetAxis("Horizontal") > 0f)
+            if (Right > 0f)
             {
                 GetComponent<Animation>().CrossFade("run", 0.1f);
             }

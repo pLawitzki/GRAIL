@@ -1,6 +1,0 @@
-D:\Checkouts\Unity Projects\LD48_28\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
-D:\Checkouts\Unity Projects\LD48_28\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
-D:\Checkouts\Unity Projects\LD48_28\Temp\UnityVS_bin\Debug\UnityEngine.dll
-D:\Checkouts\Unity Projects\LD48_28\obj\Debug\UnityVS.LD48_28.CSharp.csprojResolveAssemblyReference.cache
-D:\Checkouts\Unity Projects\LD48_28\obj\Debug\Assembly-CSharp.dll
-D:\Checkouts\Unity Projects\LD48_28\obj\Debug\Assembly-CSharp.pdb

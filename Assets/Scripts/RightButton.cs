@@ -8,7 +8,7 @@ public class RightButton : MonoBehaviour {
     private bool pressed = false;
 
 	void Update () {
-        if (Input.GetAxis("Horizontal") > 0f && !pressed)
+        if (Input.GetAxis("Horizontal") > 0f && !pressed || Input.GetMouseButtonDown(0) || Input.touchCount > 0)
         {
             pressed = true;
             particle.Play();
