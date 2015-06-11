@@ -1,0 +1,38 @@
+Initialize engine version: 5.0.1f1 (5a2e8fe35a68)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.4465]
+    Renderer: NVIDIA GeForce GTX 570
+    Vendor:   NVIDIA
+    VRAM:     1232 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Checkouts\Unity Projects\LD48_28\Deploy\PCDeploy\GRAIL_LD28_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Checkouts\Unity Projects\LD48_28\Deploy\PCDeploy\GRAIL_LD28_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Checkouts\Unity Projects\LD48_28\Deploy\PCDeploy\GRAIL_LD28_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Checkouts\Unity Projects\LD48_28\Deploy\PCDeploy\GRAIL_LD28_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Checkouts\Unity Projects\LD48_28\Deploy\PCDeploy\GRAIL_LD28_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Checkouts\Unity Projects\LD48_28\Deploy\PCDeploy\GRAIL_LD28_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.106 seconds
+desktop: 2560x1440 59Hz; virtual: 3640x1920 at -1080,-480
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: D:\Checkouts\Unity Projects\LD48_28\Deploy\PCDeploy\GRAIL_LD28_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Checkouts\Unity Projects\LD48_28\Deploy\PCDeploy\GRAIL_LD28_Data\Managed\System.dll (this message is harmless)
+CLICK!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.424335 ms
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 501.
+Total: 0.304725 ms (FindLiveObjects: 0.035959 ms CreateObjectMapping: 0.027589 ms MarkObjects: 0.215756 ms  DeleteObjects: 0.024489 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.310968 ms
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 589.
+Total: 0.334794 ms (FindLiveObjects: 0.036889 ms CreateObjectMapping: 0.030069 ms MarkObjects: 0.203356 ms  DeleteObjects: 0.063858 ms)
+
