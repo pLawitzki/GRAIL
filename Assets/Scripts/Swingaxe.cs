@@ -30,11 +30,9 @@ public class Swingaxe : MonoBehaviour {
 	
 	void Update ()
     {
-        float currentAngle = joint.angle - 120f;
-
         if (joint.spring.targetPosition > 0f)
         {
-            if (currentAngle > joint.spring.targetPosition)
+            if (joint.angle > joint.spring.targetPosition)
             {
                 joint.spring = back;
                 gameObject.GetComponent<AudioSource>().PlayDelayed(1.5f);
@@ -42,7 +40,7 @@ public class Swingaxe : MonoBehaviour {
         }
         else
         {
-            if (currentAngle < joint.spring.targetPosition)
+            if (joint.angle < joint.spring.targetPosition)
             {
                 joint.spring = forth;
                 gameObject.GetComponent<AudioSource>().PlayDelayed(1.5f);
